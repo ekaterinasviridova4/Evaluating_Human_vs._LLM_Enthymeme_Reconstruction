@@ -2,13 +2,12 @@
 
 This repository contains the implementation details of the paper "Better than the Gold Standard? Evaluating Human vs. LLM Enthymeme Reconstruction in Natural Language Argumentation".
 This work focuses on reconstructing implicit premises and claims in argumentative texts, using different families of generative models and zero-shot prompting. 
-While the full reconstruction pipeline is operational and can be tested on the provided CMV datasets, the human-reconstructed gold-standard data (used for evaluation) will be published upon paper acceptance.
 
 ## Data Structure
 
 The data is organized into **Dialogue-structured** (speaker separated) texts including raw (non-annotated) and human-annotated CMV text: 
 
-- **`out_dial_jsonl/`**: Dialogue dataset with Implicit/Explicit annotations.
+- **`out_dial_jsonl/`**: Dialogue dataset with Implicit/Explicit annotations (train_labeled.jsonl, dev_labeled.jsonl, test_labeled.jsonl); **Human-reconstructed gold-standard data** (post_processed_train.jsonl, post_processed_dev.jsonl, post_processed_test.jsonl)
 - **`out_dial_fine_grained_jsonl/`**: Dialogue dataset with fine-grained annotations.
 - **`out_dial_premise_claim_jsonl/`**: Dialogue dataset with premise and claim annotations.
 
