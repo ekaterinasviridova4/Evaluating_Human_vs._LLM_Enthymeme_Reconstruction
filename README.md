@@ -51,16 +51,6 @@ Complete guidelines for the human evaluation study are available in [Evaluation_
 
 ---
 
-## Results Structure
-
-The results are divided into [results_dev/](results_dev) and [results_test/](results_test), containing:
-- `ann_full_reconstructed_*`: Full dialogue reconstructions.
-- `ann_short_reconstructed_*`: Speaker exchange reconstructions.
-- `joined_reconstructed/`: Merged outputs from exchange reconstructions.
-- `evaluation_results/`: BLEU, ROUGE, and SBERT metrics.
-
----
-
 ## Installation
 ```bash
 # General dependencies
